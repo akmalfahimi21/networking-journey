@@ -1,15 +1,10 @@
 # Introduction
-I have been really interested in networking recently and have done my own study to pass CCNA.
-I have watched almost all of Jeremy IT lab videos and cram out a lot pass year questions to build my own solid network foundations.
-However i started to realize that i am only just memorizing something that already exist. Once i slack off of my study for few weeks 
-I forgot almost everything that i had been studied. In addition, there was an interview for Network Engineer position and one of the interview ask me.
-What is a VLAN? I could not answer to his expectation because I only answer based on paper (something that i had only memorize).
-Thats when i realized that to build a strong foundation i need to not only theory but real project experiences from the scratch. 
-So using claude we had created this course which will help me to build a strong foundation on networking knowledge anmd skills, not just
-memorizing but deep understanding with a real life project implementations.
-The motto for this course is "Understanding first. Certification second."
+I have always been interested in networking, and for a while, I believed I was on the right track. I watched almost all of Jeremy's IT Lab videos and worked through many past-year exam questions, thinking I was building a solid foundation. But I started to notice something — whenever I took a break from studying for a few weeks, I forgot nearly everything I had covered.
+The moment that truly woke me up was during an interview for a Network Engineer position. One of the interviewers asked me a simple question: "What is a VLAN?" I could not answer to their expectation. Not because I had never studied it — but because everything I knew was purely memorized. I had the definition, but I had no real understanding behind it.
+That was the turning point. I realized that to build a strong foundation in networking, theory alone is not enough. Real understanding comes from hands-on experience, building things from scratch, and knowing why something works — not just what it is.
+This repository documents my structured journey to genuinely learn networking from the ground up — combining deep conceptual understanding with real-world project implementations. The goal is not just to pass the CCNA exam, but to become someone who actually thinks and troubleshoots like a network engineer.
+The motto for this course is simple: "Understanding first. Certification second."
  
-
 ## How This Course Works
 Every module follows the same pattern: Concept → Why it matters → Lab in Packet Tracer → See it in Wireshark (where applicable). 
 You don't move to the next module until the current one genuinely makes sense — not just memorized, but understood. 
