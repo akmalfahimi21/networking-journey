@@ -70,15 +70,28 @@ EtherChannel concept | LACP | PAgP | Static EtherChannel | show etherchannel sum
 
 ### Phase 4 - Routing
 - [ ] Module 4.1 - Routing Fundamentals & Static Routes
-- [ ] Module 4.2 - OSPF
-- [ ] Module 4.3 - HSRP
-
+- How routers make forwarding decisions. The routing table, longest prefix match, administrative distance. Static routes — when to use them and how to configure them properly.
+Routing table | Longest prefix match | AD | Static routes | Default route | Floating static routes
+- [ ] Module 4.2 - OSPF— Open Shortest Path First
+The most important dynamic routing protocol for CCNA. How routers discover each other, build a topology map, and calculate the best path. Single-area OSPF deeply understood, multi-area introduced.
+Link-state vs distance vector | OSPF neighbor adjacency | Hello packets | LSA/LSDB | DR/BDR election | Cost metric | show ip ospf neighbor
+- 🔬 Lab: Multi-router topology, watch OSPF hellos in Wireshark, verify full adjacency
+- [ ] Module 4.3 - First Hop Redundancy — HSRP
+- What happens if your default gateway router goes down? HSRP provides a virtual IP so end devices don't notice. Understanding active/standby, preemption, and failover.
+HSRP concept | Virtual IP/MAC | Active/Standby | Priority & preemption | show standby
 ### Phase 5 - Network Services
-- [ ] Module 5.1 - DHCP
-- [ ] Module 5.2 - DNS
-- [ ] Module 5.3 - NAT
-- [ ] Module 5.4 - TCP vs UDP
-
+- [ ] Module 5.1 - DHCP— Automatic IP Assignment
+- How devices get their IP addresses automatically. Configure a router as a DHCP server, watch the DORA process happen in Wireshark — Discover, Offer, Request, Acknowledge.
+DORA process | DHCP server config | Excluded addresses|DHCP relay agent |ip helper-address
+- [ ] Module 5.2 - DNS— Translating Names to Addresses
+How DNS actually works under the hood. Recursive vs iterative queries, DNS hierarchy, and watching DNS queries happen in Wireshark. Configure basic DNS in Packet Tracer.
+DNS hierarchy | Recursive queries | A records | PTR records | DNS in Wireshark | ip domain-lookup
+- [ ] Module 5.3 - NAT— Network Address Translation
+- How your private home IP becomes a public IP when traffic leaves to the internet. Static NAT, Dynamic NAT, and PAT (the one your home router actually uses). Configure and verify.
+Private vs Public IP | Static NAT | Dynamic NAT | PAT/NAT Overload | show ip nat translations | inside/outside
+- [ ] Module 5.4 - TCP vs UDP— Transport Layer Deep Dive
+- When do applications use TCP vs UDP and why? Watch the TCP 3-way handshake in Wireshark. Understand ports, sessions, and what connection-oriented really means.
+TCP 3-way handshake | TCP 4-way termination|Sequence/Acknowledgement | UDP use cases | Well-known ports| Wireshark TCP stream
 ### Phase 6 - Security & Advanced
 - [ ] Module 6.1 - ACLs
 - Filtering traffic based on rules. Standard vs extended ACLs, where to place them, how they're processed (top-down, first match). The implicit deny at the end.
