@@ -62,12 +62,27 @@ Wireshark interface | Capture filters | Display filters | Packet anatomy | Proto
 
 ### Phase 6 - Security & Advanced
 - [ ] Module 6.1 - ACLs
-- [ ] Module 6.2 - Switch Security
+-Filtering traffic based on rules. Standard vs extended ACLs, where to place them, how they're processed (top-down, first match). The implicit deny at the end.
+Standard ACL | Extended ACL | Named ACL | Placement rules | Wildcard masks | show access-lists
+- [ ] Module 6.2 - Switch Security— Port Security & Layer 2 Attacks
+- How attackers can exploit Layer 2 (MAC flooding, VLAN hopping). Port security to limit MAC addresses per port. DHCP snooping, Dynamic ARP Inspection.
+Port security | Sticky MAC | Violation modes | DHCP snooping | DAI | Storm control
 - [ ] Module 6.3 - IPv6
+-The world is moving to IPv6. Address format, types, how IPv6 replaces ARP with NDP, and basic router/interface configuration. Why IPv6 was necessary.
+IPv6 address format|EUI-64|Link-local/Global unicast |NDP vs ARP | SLAAC | OSPFv3
 - [ ] Module 6.4 - Wireless
+-How WiFi works, the role of APs and WLCs, BSS vs ESS, frequency bands, and security standards. Configure basic wireless in Packet Tracer.
+802.11 standards | 2.4GHz vs 5GHz | BSS/ESS/IBSS| WPA2/WPA3 | Lightweight AP + WLC
 - [ ] Module 6.5 - Network Automation
+-Network Automation & Programmability
+The modern network engineer's toolkit. REST APIs, JSON, YANG/NETCONF, and how tools like Ansible are changing network management. Your Python knowledge will shine here!
+REST API basics |JSON/XML | NETCONF/RESTCONF |Ansible intro |SDN concepts | Python + Netmiko
 
 ## Note
 This repo documents my real hands-on learning journey.
 Every lab was built and configured by me, not copied.
+
+### The Goal
+By the end of this course, you won't just know how to configure a network — you'll understand why every command exists, what's happening at every layer, and how to troubleshoot when things go wrong. That's what separates a real network engineer from someone who just passed a test.
+
 
