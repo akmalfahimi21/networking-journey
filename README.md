@@ -1,14 +1,19 @@
-# My Networking Journey 🌐
+# Introduction
+I have been really interested in networking recently and have done my own study to pass CCNA.
+I have watched almost all of Jeremy IT lab videos and cram out a lot pass year questions to build my own solid network foundations.
+However i started to realize that i am only just memorizing something that already exist. Once i slack off of my study for few weeks 
+I forgot almost everything that i had been studied. In addition, there was an interview for Network Engineer position and one of the interview ask me.
+What is a VLAN? I could not answer to his expectation because I only answer based on paper (something that i had only memorize).
+Thats when i realized that to build a strong foundation i need to not only theory but real project experiences from the scratch. 
+So using claude we had created this course which will help me to build a strong foundation on networking knowledge anmd skills, not just
+memorizing but deep understanding with a real life project implementations.
+The motto for this course is "Understanding first. Certification second."
+ 
 
-Self-studying CCNA with focus on deep understanding,
-not just exam passing.
-
-##📌 How This Course Works
+## How This Course Works
 Every module follows the same pattern: Concept → Why it matters → Lab in Packet Tracer → See it in Wireshark (where applicable). 
 You don't move to the next module until the current one genuinely makes sense — not just memorized, but understood. 
 Each module builds directly on the previous one.
-
-
 
 
 ## About
@@ -27,6 +32,8 @@ Each module builds directly on the previous one.
 
 ### Phase 1 - Foundations ✅
 - [x] Module 1.1 - OSI & TCP/IP Models
+- Not just memorizing layers — understanding WHY the models exist, what each layer actually does, and how data gets encapsulated and de-encapsulated as it travels.
+OSI 7 layers | TCP/IP 4 layers | Encapsulation| PDUs |Layer responsibilities
 - [x] Module 1.2 - IP Addressing & Subnetting
 - [x] Module 1.3 - Wireshark Fundamentals
 
