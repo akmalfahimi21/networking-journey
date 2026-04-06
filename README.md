@@ -38,19 +38,38 @@ Wireshark interface | Capture filters | Display filters | Packet anatomy | Proto
 
 ### Phase 2 - Device Basics ✅
 - [x] Module 2.1 - IOS Navigation & Basic Setup
+- Getting comfortable with the CLI — modes, navigation shortcuts, help system, and basic device hardening. Every command typed with intention, not just copying syntax.
+User/Privileged/Config modes | Hostname | Passwords | Banner MOTD | Console & VTY lines | SSH setup | show commands
 - [x] Module 2.2 - Interface Configuration
-- [x] Module 2.3 - ARP
+Assigning IP addresses to interfaces, bringing them up, verifying with show commands. Understanding what "no shutdown" actually means and why interfaces default to down.
+ip address command | no shutdown | show ip interface brief | show interfaces | Loopback interfaces
+- 🔬 First real lab: Connect 2 PCs via a router, configure IPs, get them pinging each other
+- [x] Module 2.3 - ARP— The Glue Between Layer 2 and Layer 3
+How does a device find the MAC address for an IP? ARP. We'll watch ARP requests and replies happen in real time in Wireshark and simulate it in Packet Tracer's simulation mode.
+ARP request/reply | ARP cache | show arp | Gratuitous ARP | Proxy ARP
 - [x] Module 2.4 - Saving Configs & Device Management
-
+- The difference between running-config and startup-config. What happens when a router reboots without saving. CDP and LLDP for discovering neighbors.
+running-config vs startup-config |copy run start |CDP/LLDP |show version |Clock & timezone
 ### Phase 3 - Switching 🔄
-- [ ] Module 3.1 - How Switches Work
+- [ ] Module 3.1 - How Switches Work — MAC Tables & Forwarding
+- Switches aren't magic. Understand how they learn MAC addresses, build their CAM table, and make forwarding decisions. The difference between switches, hubs, and bridges.
+MAC address table |Learning/Flooding/Forwarding/Filtering |show mac address-table | Aging timers
 - [ ] Module 3.2 - VLANs
-- [ ] Module 3.3 - Inter-VLAN Routing
-- [ ] Module 3.4 - Spanning Tree Protocol
-- [ ] Module 3.5 - EtherChannel
+- VLANs are one of the most important concepts in networking. Understand the problem they solve, how to create them, assign ports, and verify. Access ports vs trunk ports explained properly.
+VLAN creation | Access ports | Trunk ports | 802.1Q tagging | Native VLAN | show vlan brief
+- 🔬 Lab: Build a network with 3 VLANs, verify traffic isolation between them
+- [ ] Module 3.3 - Inter-VLAN Routing— Getting VLANs Talking
+VLANs isolate traffic — but sometimes different VLANs need to communicate. Router-on-a-Stick and Layer 3 switches. Understanding subinterfaces and why we need them.
+Router-on-a-stick| Subinterfaces | encapsulation dot1Q | Layer 3 switch SVIs | ip routing
+- [ ] Module 3.4 - Spanning Tree Protocol— Preventing Loops
+What happens when you have redundant switch links? Broadcast storms. STP prevents this. Understand the election process, port roles/states, and why STP does what it does.
+Broadcast storms| Root bridge election | Port roles | Port states | RSTP | PortFast / BPDU Guard
+- [ ] Module 3.5 - EtherChannel— Bundling Links Together
+- Instead of one fast link, bundle multiple links into one logical channel. More bandwidth, redundancy. LACP vs PAgP, and how STP sees EtherChannel.
+EtherChannel concept | LACP | PAgP | Static EtherChannel | show etherchannel summary
 
 ### Phase 4 - Routing
-- [ ] Module 4.1 - Static Routes
+- [ ] Module 4.1 - Routing Fundamentals & Static Routes
 - [ ] Module 4.2 - OSPF
 - [ ] Module 4.3 - HSRP
 
