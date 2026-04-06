@@ -3,6 +3,14 @@
 Self-studying CCNA with focus on deep understanding,
 not just exam passing.
 
+##📌 How This Course Works
+Every module follows the same pattern: Concept → Why it matters → Lab in Packet Tracer → See it in Wireshark (where applicable). 
+You don't move to the next module until the current one genuinely makes sense — not just memorized, but understood. 
+Each module builds directly on the previous one.
+
+
+
+
 ## About
 - Guided by a structured 6-phase, 24-module course
 - Every concept understood before moving forward
