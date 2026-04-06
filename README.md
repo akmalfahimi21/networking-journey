@@ -31,11 +31,15 @@ Each module builds directly on the previous one.
 ## Progress
 
 ### Phase 1 - Foundations ✅
-- [x] Module 1.1 - OSI & TCP/IP Models
+- [x] Module 1.1 - OSI & TCP/IP Models— The Real Story
 - Not just memorizing layers — understanding WHY the models exist, what each layer actually does, and how data gets encapsulated and de-encapsulated as it travels.
 OSI 7 layers | TCP/IP 4 layers | Encapsulation| PDUs |Layer responsibilities
-- [x] Module 1.2 - IP Addressing & Subnetting
-- [x] Module 1.3 - Wireshark Fundamentals
+- [x] Module 1.2 - IP Addressing & Subnetting— Deep Dive
+-The single most important skill in networking. Binary to decimal, subnet masks, CIDR notation, calculating network/broadcast addresses, and VLSM. We drill this until it's second nature.
+Binary/Decimal | IPv4 classes | Subnet masks |CIDR | VLSM | Subnetting practice
+- [x] Module 1.3 - Wireshark Fundamentals — Reading Real Packets
+-Learn to use Wireshark before we need it. Capture live traffic on your own machine, understand the interface, apply filters, and read packet details. This tool will be your best friend.
+Wireshark interface | Capture filters | Display filters | Packet anatomy | Protocol layers in captures
 
 ### Phase 2 - Device Basics ✅
 - [x] Module 2.1 - IOS Navigation & Basic Setup
