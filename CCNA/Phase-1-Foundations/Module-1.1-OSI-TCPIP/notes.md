@@ -36,6 +36,22 @@ At your friend’s phone — it goes the opposite direction.
 Layer 1 receives the radio waves and passes it up layer by layer until Layer 7 shows them your message. That’s de-encapsulation.
 
 
+
+Layer 7: Your message starts as text 
+                 ⬇️
+Layer 6: Data is formatted and encrypted 
+                 ⬇️
+Layer 5: The session is managed 
+                 ⬇️
+Layer 4: TCP breaks it into segments 
+                 ⬇️
+Layer 3: IP addresses are added 
+                 ⬇️
+Layer 2: MAC addresses are added 
+                 ⬇️
+Layer 1: Becomes radio waves (WiFi)
+
+
 ## Encapsulation vs De-encapsulation
 - Encapsulation = adding headers going DOWN the stack
 - De-encapsulation = stripping headers going UP the stack
