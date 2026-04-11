@@ -51,21 +51,6 @@ Layer 1 receives the radio waves and passes it up layer by layer until Layer 7 s
 - Layer 2 = MAC address, local delivery, hop to hop
 - Layer 3 = IP address, end to end delivery
 
-  | Layer | Description |
-| :--- | :--- |
-| **Layer 3 — Network** | Handles delivery across different networks. It cares about getting a packet from the source all the way to the final destination, no matter how many routers it crosses. IP addresses are logical — they can be assigned and changed. |
-| **Layer 2 — Data Link** | Handles delivery within the same local network. It only cares about getting a frame from one device to the next device (hop to hop). MAC addresses are burned into the hardware — they never change and they’re only relevant locally. |
-
-
-Here is the table using your exact wording. I have organized it so the Layer names are on the left and your descriptions are in the right column.
-```markdown
-| Layer | Description |
-| :--- | :--- |
-| **Layer 3 — Network** | Handles delivery across different networks. It cares about getting a packet from the source all the way to the final destination, no matter how many routers it crosses. IP addresses are logical — they can be assigned and changed. |
-| **Layer 2 — Data Link** | Handles delivery within the same local network. It only cares about getting a frame from one device to the next device (hop to hop). MAC addresses are burned into the hardware — they never change and they’re only relevant locally. |
-
-```
-### How it will appear on GitHub:
 | Layer | Description |
 |---|---|
 | **Layer 3 — Network** | Handles delivery across different networks. It cares about getting a packet from the source all the way to the final destination, no matter how many routers it crosses. IP addresses are logical — they can be assigned and changed. |
