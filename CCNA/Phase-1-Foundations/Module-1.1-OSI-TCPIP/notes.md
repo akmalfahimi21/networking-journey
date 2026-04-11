@@ -6,6 +6,22 @@
 - OSI has 7 layers, TCP/IP has 4 layers
 - OSI = theory blueprint, TCP/IP = real world implementation
 
+OSI Model was created as a theoretical framework — a universal reference guide. It was never actually fully implemented as a real protocol suite. Think of it like a blueprint.
+TCP/IP Model is the real world implementation — the actual protocols the internet runs on today. Think of it like the actual building.
+
+### OSI vs. TCP/IP Model Mapping
+
+| Layer | OSI Model | TCP/IP Model |
+| :---: | :--- | :--- |
+| **7** | Application | Application |
+| **6** | Presentation | Application |
+| **5** | Session | Application |
+| **4** | Transport | Transport |
+| **3** | Network | Internet |
+| **2** | Data Link | Network Access |
+| **1** | Physical | Network Access |
+
+
 ## The 7 OSI Layers
 - Layer 7: Application
 - Layer 6: Presentation
@@ -59,8 +75,6 @@ Layer 1 receives the radio waves and passes it up layer by layer until Layer 7 s
 
 Lets think of real world example:
 
-
-Here’s a real world example to lock this in:
 When you send data from your laptop in KL to a server in the US. What do you think will happen to the IP address and MAC address?
 
 The IP address (Layer 3) stays the same the entire journey. Source IP and destination IP don’t change.
