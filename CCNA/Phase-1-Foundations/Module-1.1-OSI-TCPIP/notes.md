@@ -19,19 +19,19 @@ Do you ever wonder when you sending a whatsapp text to your friend what is happe
 How the message is being processing?
 
 <pre>
-* **Layer 7:** Your message starts as text 
+Layer 7: Your message starts as text 
                 ⬇️
-* **Layer 6:** Data is formatted and encrypted 
+Layer 6: Data is formatted and encrypted 
                 ⬇️
-* **Layer 5:** The session is managed 
+Layer 5: The session is managed 
                 ⬇️
-* **Layer 4:** TCP breaks it into segments 
+Layer 4: TCP breaks it into segments 
                 ⬇️
-* **Layer 3:** IP addresses are added 
+Layer 3: IP addresses are added 
                 ⬇️
-* **Layer 2:** MAC addresses are added 
+Layer 2: MAC addresses are added 
                 ⬇️
-* **Layer 1:** Finally it becomes radio waves (WiFi) and flies to your router.
+Layer 1: Finally it becomes radio waves (WiFi) and flies to your router.
 </pre>
 At your friend’s phone — it goes the opposite direction. 
 Layer 1 receives the radio waves and passes it up layer by layer until Layer 7 shows them your message. That’s de-encapsulation.
