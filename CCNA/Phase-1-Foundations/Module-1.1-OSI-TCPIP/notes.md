@@ -57,20 +57,17 @@ Layer 1 receives the radio waves and passes it up layer by layer until Layer 7 s
 | **Layer 2  Data Link** | Handles delivery within the same local network. It only cares about getting a frame from one device to the next device (hop to hop). MAC addresses are burned into the hardware — they never change and they’re only relevant locally. |
 
 
-
-
 Lets think of real world example:
 
 
-
 Here’s a real world example to lock this in:
-When you send data from your laptop in KL to a server in the US — the IP address (Layer 3) stays the same the entire journey. Source IP and destination IP don’t change.
+When you send data from your laptop in KL to a server in the US. What do you think will happen to the IP address and MAC address?
+
+The IP address (Layer 3) stays the same the entire journey. Source IP and destination IP don’t change.
 But the MAC address (Layer 2) changes at every single hop. Your laptop talks to your router using your router’s MAC. Your router then talks to the next router using THAT router’s MAC. And so on.
 Think of it like this:
 	∙	IP address = your final destination address (New York)
 	∙	MAC address = the next bus stop
-
-
 
 
 
