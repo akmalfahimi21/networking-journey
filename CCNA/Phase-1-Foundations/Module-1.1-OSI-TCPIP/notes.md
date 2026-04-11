@@ -18,6 +18,7 @@
 Do you ever wonder when you sending a whatsapp text to your friend what is happening?
 How the message is being processing?
 
+<center>
 * **Layer 7:** Your message starts as text ⬇️
 * **Layer 6:** Data is formatted and encrypted ⬇️
 * **Layer 5:** The session is managed ⬇️
@@ -25,9 +26,10 @@ How the message is being processing?
 * **Layer 3:** IP addresses are added ⬇️
 * **Layer 2:** MAC addresses are added ⬇️
 * **Layer 1:** Finally it becomes radio waves (WiFi) and flies to your router.
-
+</center>
 At your friend’s phone — it goes the opposite direction. 
 Layer 1 receives the radio waves and passes it up layer by layer until Layer 7 shows them your message. That’s de-encapsulation.
+
 
 ## Encapsulation vs De-encapsulation
 - Encapsulation = adding headers going DOWN the stack
