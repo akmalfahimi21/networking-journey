@@ -19,10 +19,15 @@ Do you ever wonder when you sending a whatsapp text to your friend what is happe
 How the message is being processing?
 
 <center>
-* **Layer 7:** Your message starts as text ⬇️
+* **Layer 7:** Your message starts as text 
+             ⬇️
 * **Layer 6:** Data is formatted and encrypted ⬇️
 * **Layer 5:** The session is managed ⬇️
+
+
 * **Layer 4:** TCP breaks it into segments ⬇️
+
+
 * **Layer 3:** IP addresses are added ⬇️
 * **Layer 2:** MAC addresses are added ⬇️
 * **Layer 1:** Finally it becomes radio waves (WiFi) and flies to your router.
