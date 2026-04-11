@@ -24,35 +24,10 @@ How the message is being processing?
 * **Layer 4:** TCP breaks it into segments ⬇️
 * **Layer 3:** IP addresses are added ⬇️
 * **Layer 2:** MAC addresses are added ⬇️
-* **Layer 1:** Becomes radio waves (WiFi) and flies to your router.
+* **Layer 1:** Finally it becomes radio waves (WiFi) and flies to your router.
 
-
-Your message starts at Layer 7 as text 
-                ⬇️
-gets formatted and encrypted at Layer 6
-                ⬇️
-a session is managed at Layer 5 
-                ⬇️
-TCP breaks it into segments at Layer 4 
-                ⬇️
-IP addresses are added at Layer 3 
-                ⬇️
-MAC addresses added at Layer 2 
-                ⬇️
-finally becomes radio waves (WiFi) at Layer 1 and flies through the air to your router.
 At your friend’s phone — it goes the opposite direction. 
 Layer 1 receives the radio waves and passes it up layer by layer until Layer 7 shows them your message. That’s de-encapsulation.
-
-
-Layer 7 [Application]  ⬇️
-Layer 6 [Presentation] ⬇️
-Layer 5 [Session]      ⬇️
-Layer 4 [Transport]    ⬇️
-Layer 3 [Network]      ⬇️
-Layer 2 [Data Link]    ⬇️
-Layer 1 [Physical]     ⬇️
-
-
 
 ## Encapsulation vs De-encapsulation
 - Encapsulation = adding headers going DOWN the stack
