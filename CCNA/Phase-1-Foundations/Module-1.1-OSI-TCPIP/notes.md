@@ -18,6 +18,23 @@
 Do you ever wonder when you sending a whatsapp text to your friend what is happening?
 How the message is being processing?
 
+<pre>
+Layer 7: Your message starts as text 
+             ⬇️
+Layer 6: Data is formatted and encrypted 
+             ⬇️
+Layer 5: A session is managed 
+             ⬇️
+Layer 4: TCP breaks it into segments 
+             ⬇️
+Layer 3: IP addresses are added 
+             ⬇️
+Layer 2: MAC addresses added 
+             ⬇️
+Layer 1: Finally becomes radio waves
+</pre>
+
+
 <center>
 * **Layer 7:** Your message starts as text ⬇️
 * **Layer 6:** Data is formatted and encrypted ⬇️
