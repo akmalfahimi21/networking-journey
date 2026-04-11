@@ -15,6 +15,22 @@
 - Layer 2: Data Link
 - Layer 1: Physical
 
+Do you ever wonder when you sending a whatsapp text to your friend what is happening?
+How the message is being processing?
+
+Your message starts at Layer 7 as text →
+     Simple Down
+gets formatted and encrypted at Layer 6 → 
+a session is managed at Layer 5 → 
+TCP breaks it into segments at Layer 4 →
+IP addresses are added at Layer 3 →
+MAC addresses added at Layer 2 → 
+finally becomes radio waves (WiFi) at Layer 1 and flies through the air to your router.
+At your friend’s phone — it goes the opposite direction. 
+
+Layer 1 receives the radio waves and passes it up layer by layer until Layer 7 shows them your message. That’s de-encapsulation.
+
+
 ## Encapsulation vs De-encapsulation
 - Encapsulation = adding headers going DOWN the stack
 - De-encapsulation = stripping headers going UP the stack
