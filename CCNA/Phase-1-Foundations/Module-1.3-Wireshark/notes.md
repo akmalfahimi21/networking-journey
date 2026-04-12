@@ -43,3 +43,5 @@
 - DNS must resolve before ping can be sent
 - ARP must complete before ping can be sent
 - Private IP 10.x.x.x seen on laptop (hotspot network)
+
+![Screenshot Description](Wireshark1.0.png)
