@@ -1,3 +1,4 @@
+<img width="1920" height="1080" alt="wireshark1 1" src="https://github.com/user-attachments/assets/82c4dbcc-230c-4afe-977a-173dde62e0b5" />
 # Introduction
 I have always been interested in networking, and for a while, I believed I was on the right track. I watched almost all of Jeremy's IT Lab videos and worked through many past-year exam questions, thinking I was building a solid foundation. But I started to notice something — whenever I took a break from studying for a few weeks, I forgot nearly everything I had covered.
 The moment that truly woke me up was during an interview for a Network Engineer position. One of the interviewers asked me a simple question: "What is a VLAN?" I could not answer to their expectation. Not because I had never studied it — but because everything I knew was purely memorized. I had the definition, but I had no real understanding behind it.
