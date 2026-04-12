@@ -27,16 +27,19 @@ In the "hard way" of learning, Wireshark proves that the theories you’re study
 ## Implementing Wireshark
 So for this part we will be using wireshark to understand how packet are actually being managed from device to device.
 <img width="1920" height="1080" alt="Wireshark1 0" src="https://github.com/user-attachments/assets/7b91fbdc-9c14-4126-a23d-a50ced23e322" />
-<img width="1920" height="1080" alt="wireshark1 1" src="https://github.com/user-attachments/assets/3124d681-77e4-4b64-afd1-f310da294a1a" />
+<img width="1920" height="1020" alt="Screenshot 2026-04-12 103941" src="https://github.com/user-attachments/assets/b77e1425-c601-4a3f-957f-348dbe24f4e4" />
 
 If we click on the Wifi, we can see real live network traffic is going on here.
 
+<pre>
 Time        → when the packet was captured
 Source      → who sent it (IP or MAC address)
 Destination → who it's going to
 Protocol    → what type of traffic (DNS, TCP, HTTP etc)
 Length      → size of the packet in bytes
 Info        → quick summary of what the packet is doing
+<pre/>
+
 
 The trafiic in going superfast. So we will capture 
 
